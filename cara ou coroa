@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Roboto:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e6d2ead74.js" crossorigin="anonymous"></script>
+    <title>Site Teste</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="Logo">
+            <h1>Cravo e Canela</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Upon</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</div>
+<section class="barra">
+    <form action="#" method="post">
+    <input type="text" name="serach" id="search" placeholder="Buscar Produto" required>
+    <button type="submit"><i class="fas fa-search"></i></button>
+</section>
+
+
+</body>
+</html>
+
+<!-CSS->
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(109, 0, 104);
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+h1, a{
+    color: rgb(255, 255, 255);
+    font-family: 'La Belle Aurore', cursiva;
+
+}
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 30px;
+}
+
+li:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+a{
+    text-decoration: none;
+}
+
+.Logo{
+    padding: 10px;
+    font-size: 30px;
+}
+
+img{
+    width: 10%;
+}
+
+body{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(109, 0, 104);
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button{
+    font-size: 1em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
